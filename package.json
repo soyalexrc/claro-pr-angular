@@ -1,5 +1,5 @@
 {
-  "name": "angular-claro-pr-library",
+  "name": "claro-pr-angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^18.0.0",
     "@angular/common": "^18.0.0",
@@ -35,5 +35,23 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "ng-packagr": "^18.2.0",
     "typescript": "~5.4.2"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.",
+  "main": "dist/claro-pr-angular/fesm2022/claro-pr-angular.mjs",
+  "module": "dist/claro-pr-angular/fesm2022/claro-pr-angular.mjs",
+  "es2015": "dist/claro-pr-angular/fesm2015/claro-pr-angular.mjs",
+  "typings": "dist/claro-pr-angular/claro-pr-angular.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soyalexrc/claro-pr-angular.git"
+  },
+  "keywords": [
+    "claropr"
+  ],
+  "author": "Alex Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soyalexrc/claro-pr-angular/issues"
+  },
+  "homepage": "https://github.com/soyalexrc/claro-pr-angular#readme"
 }
